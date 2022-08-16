@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.6.0
+selenium==4.3.0
+requests==2.27.1
+pytest==7.1.2
