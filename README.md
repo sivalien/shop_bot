@@ -1,13 +1,12 @@
 # Shop Bot  
   
 ## About bot  
-It is a telegram bot for searching items in online shops. Now only three shops are available: Aliexpress, Lamoda and Wildberries. User can see the available shop list and search items in all available shops or only in some of them. Also user can change the number of items in the results of the search. This number can be different for different shops.  
+It is a telegram bot for searching for items in online shops. Now only three shops are available: Aliexpress, Lamoda and Wildberries. User can see the available shop list and search items in all available shops or only in some of them. Also user can change the number of items in the results of the search. This number can be different for different shops.  
   
 ## Installation  
 1. Clone this repo
 ```
 git remote add origin https://github.com/sivalien/shop_bot
-cd hw/hw3
 ```
 2. Install required packages: selenium, pyTelegramBotAPI, BeatifulSoup and requests  
 ```
