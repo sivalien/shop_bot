@@ -34,7 +34,7 @@ pytest telegram_bot/tests.py
 ```  
   
 ## Running  
-For runnig this bot just enter following command  
+To run this bot just enter the following command  
 ```
 python main.py
 ```
