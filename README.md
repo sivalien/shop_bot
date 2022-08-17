@@ -15,9 +15,12 @@ pip install pyTelegramBotAPI
 pip install bs4  
 pip install requests
 ```
-3. Set up required fields in config.py:
-- `TOKEN` - the Telegram Bot Token that you got from @BotFather. 
-- `CHROME_DRIVER_PATH` - path to chrome driver that you can install for [chrome](https://sites.google.com/chromium.org/driver/) and for [firefox](https://github.com/mozilla/geckodriver/releases), you can move driver to /usr/bin (for MacOS) folder and remove this variable from config.py and all shop models files or just write your path to chromedriver in this variable.  
+3. Set up required fields:
+- `TOKEN` - the Telegram Bot Token that you got from @BotFather, you can set up it with the following command:
+```
+export TOKEN="your token"
+```
+- `CHROME_DRIVER_PATH` - path to chrome driver that you can install for [chrome](https://sites.google.com/chromium.org/driver/) and for [firefox](https://github.com/mozilla/geckodriver/releases), you can move driver to /usr/bin (for MacOS) folder and remove this variable from config.py and all shop models files or just write your path to chromedriver in this variable in config.py.  
   
 ## Testing  
 - install pytest  
