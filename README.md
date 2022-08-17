@@ -8,19 +8,20 @@ It is a telegram bot for searching for items in online shops. Now only three sho
 ```
 git remote add origin https://github.com/sivalien/shop_bot
 ```
-2. Install required packages: selenium, pyTelegramBotAPI, BeatifulSoup and requests  
+2. Install required package with the following commands
 ```
 pip install selenium
 pip install pyTelegramBotAPI  
 pip install bs4  
 pip install requests
 ```
-3. Set up required fields:
-- `TOKEN` - the Telegram Bot Token that you got from @BotFather, you can set up it with the following command:
+3. Download [Chrome browser](https://www.google.com/intl/ru/chrome/) (if do not have it) and [Chrome driver](https://sites.google.com/chromium.org/driver/)
+4. Set up required fields:
+- `TOKEN` - the Telegram Bot Token that you got from @BotFather you can set up it with the following command:
 ```
 export TOKEN="your token"
 ```
-- `CHROME_DRIVER_PATH` - path to chrome driver that you can download [here](https://sites.google.com/chromium.org/driver/), you can move driver to /usr/bin folder (for MacOS) and remove this variable from config.py and all shop models files or just write your path to chromedriver in this variable in config.py.  
+- `CHROME_DRIVER_PATH` - path to chrome driver (this variable is in the config.py file).  
   
 ## Testing  
 - install pytest  
