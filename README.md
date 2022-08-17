@@ -20,7 +20,7 @@ pip install requests
 ```
 export TOKEN="your token"
 ```
-- `CHROME_DRIVER_PATH` - path to chrome driver that you can install for [chrome](https://sites.google.com/chromium.org/driver/), you can move driver to /usr/bin folder (for MacOS) and remove this variable from config.py and all shop models files or just write your path to chromedriver in this variable in config.py.  
+- `CHROME_DRIVER_PATH` - path to chrome driver that you can download [here](https://sites.google.com/chromium.org/driver/), you can move driver to /usr/bin folder (for MacOS) and remove this variable from config.py and all shop models files or just write your path to chromedriver in this variable in config.py.  
   
 ## Testing  
 - install pytest  
