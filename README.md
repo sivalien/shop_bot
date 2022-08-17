@@ -8,7 +8,7 @@ It is a telegram bot for searching for items in online shops. Now only three sho
 ```
 git remote add origin https://github.com/sivalien/shop_bot
 ```
-2. Install required package with the following commands
+2. Install required packages
 ```
 pip install selenium
 pip install pyTelegramBotAPI  
