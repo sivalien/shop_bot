@@ -21,7 +21,7 @@ pip install requests
 ```
 export TOKEN="your token"
 ```
-- `CHROME_DRIVER_PATH` - path to chrome driver (this variable is in the config.py file).  
+- `CHROME_DRIVER_PATH` - write to this variable in the config.py file your path to chrome driver.  
   
 ## Testing  
 - install pytest  
