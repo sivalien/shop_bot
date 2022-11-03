@@ -18,7 +18,10 @@ pip install -r requirements.txt
 ```
 export TOKEN="your token"
 ```
-- `CHROME_DRIVER_PATH` - write to this variable in the config.py file your path to chrome driver.  
+- `CHROME_DRIVER_PATH` - path to chrome driver on your computer and also set it up:  
+```
+export CHROME_DRIVER_PATH="your path"
+```
   
 ## Testing  
 - install pytest  
