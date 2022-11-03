@@ -30,7 +30,7 @@ pip install pytest
 ```
 - run tests    
 ```
-pytest telegram_bot/tests.py
+pytest tests/tests.py
 ```  
   
 ## Running  
