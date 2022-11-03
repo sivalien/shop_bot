@@ -2,7 +2,7 @@ import os
 
 
 TOKEN = os.environ['TOKEN']
-CHROME_DRIVER_PATH = '/Users/macbook/Desktop/chromedriver'
+CHROME_DRIVER_PATH = os.environ['CHROME_DRIVER_PATH']
 
 SHOP_NUMBER = 3
 DB_NAME = 'shop_item_number.db'
