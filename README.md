@@ -10,10 +10,7 @@ git remote add origin https://github.com/sivalien/shop_bot
 ```
 2. Install required packages
 ```
-pip install selenium
-pip install pyTelegramBotAPI  
-pip install bs4  
-pip install requests
+pip install -r requirements.txt
 ```
 3. Download [Chrome browser](https://www.google.com/intl/ru/chrome/) (if do not have it) and [Chrome driver](https://sites.google.com/chromium.org/driver/)
 4. Set up required fields:
