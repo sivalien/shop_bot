@@ -22,17 +22,18 @@ class Wildberries(Shop):
             by=By.ID,
             value='searchInput',
         )
+        time.sleep(2)
         search.click()
         search.send_keys(request)
         search.send_keys(Keys.ENTER)
-        time.sleep(5)
+        time.sleep(7)
         bs = BeautifulSoup(driver.page_source, "html.parser")
         driver.close()
         return bs
 
     def get_items(self, request: str, number: int = 5) -> List[Item]:
         source_page = self._get_source_page(request)
-        if len(source_page.find('div', {'id': 'emptySearchRecommendations'}).text) != 0:
+        if source_page.find('div', {'id': 'emptySearchRecommendations'}) is None or not source_page.find('div', {'id': 'emptySearchRecommendations'}).text == "":
             return None
         product_cards = source_page.find_all('div', {'class': 'product-card__wrapper'})[:number]
         items = []
